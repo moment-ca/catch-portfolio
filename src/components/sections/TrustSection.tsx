@@ -6,8 +6,8 @@ const LOGOS = ["Stripe", "Twilio", "AWS", "Vercel", "Linear"];
 
 export function TrustSection() {
   return (
-    <section className="border-y border-[#30363D] py-12">
-      <div className="mx-auto max-w-[1440px] px-6 md:px-12">
+    <section className="border-y border-[#30363D] py-8">
+      <div className="mx-auto max-w-360 px-6 md:px-12">
         <motion.div
           initial={{ opacity: 0, y: 10 }}
           whileInView={{ opacity: 1, y: 0 }}

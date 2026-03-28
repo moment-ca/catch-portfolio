@@ -12,8 +12,8 @@ export function CTASection() {
       id="cta"
       className="relative overflow-hidden py-24"
     >
-      <div className="absolute inset-0 bg-gradient-to-b from-[#161B22] to-black" />
-      <div className="relative mx-auto max-w-[1440px] px-6 md:px-12">
+      <div className="absolute inset-0 bg-linear-to-b from-[#161B22] to-black" />
+      <div className="relative mx-auto max-w-360 px-6 md:px-12">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -37,18 +37,18 @@ export function CTASection() {
               placeholder="Phone Number"
               value={phone}
               onChange={(e) => setPhone(e.target.value)}
-              className="rounded-lg border border-[#30363D] bg-black px-3 py-2.5 text-sm text-white placeholder:text-[#8B949E] focus:border-[#A3CB31] focus:outline-none focus:ring-1 focus:ring-[#A3CB31] sm:min-w-[160px]"
+              className="rounded-lg border border-[#30363D] bg-black px-3 py-2.5 text-sm text-white placeholder:text-[#8B949E] focus:border-[#A3CB31] focus:outline-none focus:ring-1 focus:ring-[#A3CB31] sm:min-w-40"
             />
             <input
               type="text"
               placeholder="How will you use Catch?"
               value={useCase}
               onChange={(e) => setUseCase(e.target.value)}
-              className="rounded-lg border border-[#30363D] bg-black px-3 py-2.5 text-sm text-white placeholder:text-[#8B949E] focus:border-[#A3CB31] focus:outline-none focus:ring-1 focus:ring-[#A3CB31] sm:min-w-[160px]"
+              className="rounded-lg border border-[#30363D] bg-black px-3 py-2.5 text-sm text-white placeholder:text-[#8B949E] focus:border-[#A3CB31] focus:outline-none focus:ring-1 focus:ring-[#A3CB31] sm:min-w-40"
             />
             <button
               type="submit"
-              className="rounded-lg bg-[#A3CB31] px-6 py-2.5 text-sm font-medium text-white transition-opacity hover:opacity-90"
+              className="rounded-sm bg-[#008756] px-6 py-2.5 text-sm font-medium text-white transition-opacity hover:opacity-90"
             >
               Request Access
             </button>

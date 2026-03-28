@@ -8,19 +8,24 @@ import { IntelligenceSection } from "@/components/sections/IntelligenceSection";
 import { ProductPreviewSection } from "@/components/sections/ProductPreviewSection";
 import { VisionSection } from "@/components/sections/VisionSection";
 import { CTASection } from "@/components/sections/CTASection";
+import Demo from "@/components/Demo";
+import { AnomalousMatterHero } from "@/components/anomalous-matter-hero";
 
 export default function Home() {
   return (
     <div className="min-h-screen bg-black">
       <Navbar />
       <main>
-        <HeroSection />
-        <TrustSection />
+        {/* <ReactiveMatterHero /> */}
+        <AnomalousMatterHero />
+        {/* <HeroSection /> */}
+        {/* <TrustSection /> */}
         <ProblemSection />
         <SolutionSection />
-        <IntelligenceSection />
+        {/* <IntelligenceSection /> */}
         <ProductPreviewSection />
         <VisionSection />
+        <Demo />
         <CTASection />
       </main>
       <Footer />

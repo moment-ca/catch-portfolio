@@ -21,16 +21,16 @@ export function Navbar() {
       transition={{ duration: 0.5 }}
       className="fixed top-0 left-0 right-0 z-50 h-20 border-b border-[#30363D] bg-black/95 backdrop-blur-md"
     >
-      <nav className="mx-auto flex h-full max-w-[1440px] items-center justify-between px-6 md:px-12">
-        <a href="#" className="flex items-center gap-4">
+      <nav className="mx-auto flex h-full max-w-360 items-center justify-between px-6 md:px-12">
+        <a href="#" className="flex items-center">
           <Image
-            src="/logo.png"
+            src="/hashtag_1.png"
             alt="Catch"
             width={40}
             height={40}
             className="h-10 w-10 rounded-lg object-contain"
           />
-          <span className="text-3xl font-semibold tracking-tight text-white">
+          <span className="text-2xl font-semibold tracking-tight text-white">
             Catch
           </span>
         </a>
@@ -50,7 +50,7 @@ export function Navbar() {
         <div className="flex items-center gap-4">
           <a
             href="#preview"
-            className="rounded-lg bg-[#A3CB31] px-4 py-2.5 text-sm font-medium text-white transition-opacity hover:opacity-90"
+            className="rounded-sm bg-[#008756] px-4 py-2.5 text-sm font-medium text-white transition-opacity hover:opacity-90"
           >
             Get Started
           </a>

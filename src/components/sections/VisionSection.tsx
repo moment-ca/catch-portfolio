@@ -5,8 +5,8 @@ import Image from "next/image";
 
 export function VisionSection() {
   return (
-    <section className="py-20">
-      <div className="mx-auto max-w-[1440px] px-6 md:px-12">
+    <section className="py-10">
+      <div className="mx-auto max-w-360 px-6 md:px-12">
         <div className="grid gap-16 md:grid-cols-2 md:items-center">
           <motion.div
             initial={{ opacity: 0, x: -20 }}
@@ -17,20 +17,17 @@ export function VisionSection() {
               Infrastructure for coordinated action.
             </h2>
             <p className="mt-6 text-[#8B949E]">
-              Just as payment infrastructure enabled online commerce,
-              coordination infrastructure will enable autonomous systems and
-              intelligent services.
+              Payment infrastructure made online commerce possible. Coordination infrastructure will do the same for autonomous systems and intelligent services.
             </p>
             <p className="mt-4 text-[#8B949E]">
-              Catch builds the shared timeline that allows people, businesses,
-              and machines to act together.
+              Catch builds the shared timeline that allows people, businesses, and machines to act together — and determines when action should happen.
             </p>
-            <p className="mt-6 font-medium text-white">
+            {/* <p className="mt-6 font-medium text-white">
               When something needs to happen — Catch decides when.
-            </p>
+            </p> */}
           </motion.div>
 
-          <motion.div
+          {/* <motion.div
             initial={{ opacity: 0, x: 20 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
@@ -42,7 +39,7 @@ export function VisionSection() {
               fill
               className="object-contain"
             />
-          </motion.div>
+          </motion.div> */}
         </div>
       </div>
     </section>

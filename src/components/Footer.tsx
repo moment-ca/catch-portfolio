@@ -39,7 +39,7 @@ const FOOTER_SECTIONS = [
 export function Footer() {
   return (
     <footer className="border-t border-[#30363D] bg-black py-20">
-      <div className="mx-auto max-w-[1440px] px-6 md:px-12">
+      <div className="mx-auto max-w-360 px-6 md:px-12">
         <div className="grid grid-cols-2 gap-12 md:grid-cols-3 lg:grid-cols-6">
           <div className="col-span-2 md:col-span-1">
             <span className="text-xl font-semibold text-white">Catch</span>
