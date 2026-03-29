@@ -1,8 +1,6 @@
 import { motion, type Variants } from "framer-motion";
-import { ArrowRight, Sparkles } from "lucide-react";
 import { useEffect, useRef } from "react";
 
-import { Button } from "@/components/ui/button";
 
 type Point = {
   x: number;
