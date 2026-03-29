@@ -3,9 +3,10 @@
 import { useState } from "react";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
+import { Apple, Smartphone } from "lucide-react";
 
 const NAV_LINKS = [
-  { label: "Product", href: "#product" },
+  { label: "Product", href: "#preview" },
   { label: "Platform", href: "#platform" },
   { label: "Developers", href: "#platform" },
   { label: "About", href: "#about" },
@@ -49,6 +50,38 @@ export function Navbar() {
 
         <div className="flex items-center gap-4">
           <a
+            href="https://apps.apple.com/us/app/catch/id6756760303"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="rounded-sm border border-[#30363D] bg-transparent px-3 py-2 text-white transition-colors hover:border-white hover:bg-white/10"
+            aria-label="Download on Apple App Store"
+          >
+            <Image
+              src="/griffin-apple-idea.png"
+              alt="Download on the App Store"
+              width={135}
+              height={40}
+              className="h-5 w-auto"
+            />
+          </a>
+
+          <a
+            href="https://play.google.com/store/apps/details?id=com.crazydev0409.catchapp"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="rounded-sm border border-[#30363D] bg-transparent px-3 py-2 text-white transition-colors hover:border-white hover:bg-white/10"
+            aria-label="Download on Google Play Store"
+          >
+            <Image
+              src="/griffin-playstore-idea.png"
+              alt="Download on Google Play"
+              width={155}
+              height={60}
+              className="h-5 w-auto"
+            />
+          </a>
+
+          <a
             href="#preview"
             className="rounded-sm bg-[#008756] px-4 py-2.5 text-sm font-medium text-white transition-opacity hover:opacity-90"
           >
@@ -60,15 +93,6 @@ export function Navbar() {
             className="flex flex-col gap-1.5 md:hidden"
             aria-label="Toggle menu"
           >
-            <span
-              className={`h-0.5 w-5 bg-white transition-transform ${mobileOpen ? "translate-y-2 rotate-45" : ""}`}
-            />
-            <span
-              className={`h-0.5 w-5 bg-white transition-opacity ${mobileOpen ? "opacity-0" : ""}`}
-            />
-            <span
-              className={`h-0.5 w-5 bg-white transition-transform ${mobileOpen ? "-translate-y-2 -rotate-45" : ""}`}
-            />
           </button>
         </div>
       </nav>

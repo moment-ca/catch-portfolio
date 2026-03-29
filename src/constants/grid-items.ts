@@ -33,7 +33,7 @@ export const SOLUTION_ITEMS: GridItem[] = [
    {
     title: "Coordination",
     icon: Waypoints,
-    desc: "Real-time scheduling with friends, businesses, and service providers, all in one place.",
+    desc: "Real-time scheduling with friends, businesses, venues and service providers, all in one place.",
    },
    {
     title: "Reliability",

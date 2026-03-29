@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export function VisionSection() {
   return (
-    <section className="py-10">
+    <section className="py-8">
       <div className="mx-auto max-w-360 px-6 md:px-12">
         <div className="grid gap-16 md:grid-cols-2 md:items-center">
           <motion.div
