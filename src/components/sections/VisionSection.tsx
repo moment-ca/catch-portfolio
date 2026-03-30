@@ -20,7 +20,7 @@ export function VisionSection() {
               Payment infrastructure made online commerce possible. Coordination infrastructure will do the same for autonomous systems and intelligent services.
             </p>
             <p className="mt-4 text-[#8B949E]">
-              Catch builds the shared timeline that allows people, businesses, and machines to act together — and determines when action should happen.
+              Catch builds the world’s first availability graph, turning fragmented schedules into coordinated action across people, businesses, and intelligent systems.
             </p>
             {/* <p className="mt-6 font-medium text-white">
               When something needs to happen — Catch decides when.
