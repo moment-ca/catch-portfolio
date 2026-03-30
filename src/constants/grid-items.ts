@@ -33,7 +33,7 @@ export const SOLUTION_ITEMS: GridItem[] = [
    {
     title: "Coordination",
     icon: Waypoints,
-    desc: "Real-time scheduling with friends, businesses, venues and service providers, all in one place.",
+    desc: "Real-time scheduling with friends, service providers and entities — all in one place.",
    },
    {
     title: "Reliability",
@@ -43,7 +43,7 @@ export const SOLUTION_ITEMS: GridItem[] = [
    {
     title: "Monetization",
     icon: BadgeDollarSign,
-    desc: "Offer selected time slots as paid opportunities directly from your timeline.",
+    desc: "Users can turn selected calendar slots into paid opportunities and run their time as a service. Creators, advisors, and service providers can offer bookable time directly from their timeline.",
    },
    {
     title: "Agent Access",
