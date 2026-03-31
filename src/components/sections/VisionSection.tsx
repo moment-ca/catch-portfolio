@@ -16,15 +16,14 @@ export function VisionSection() {
             <h2 className="text-3xl font-semibold text-white md:text-4xl">
               Infrastructure for coordinated action.
             </h2>
-            <p className="mt-6 text-[#8B949E]">
-              Payment infrastructure made online commerce possible. Coordination infrastructure will do the same for autonomous systems and intelligent services.
+            <p className="mt-6 text-[#8B949E] font-bold">
+              Communication scaled when the internet became infrastructure.<br />
+              Commerce scaled when payments became infrastructure.<br />
+              <span className="italic">The next shift is coordination.</span>
             </p>
             <p className="mt-4 text-[#8B949E]">
-              Catch builds the world’s first availability graph, turning fragmented schedules into coordinated action across people, businesses, and intelligent systems.
+              Catch provides the world’s first availability graph, turning fragmented schedules into a shared system for action across people, businesses, and intelligent services.
             </p>
-            {/* <p className="mt-6 font-medium text-white">
-              When something needs to happen — Catch decides when.
-            </p> */}
           </motion.div>
 
           {/* <motion.div
