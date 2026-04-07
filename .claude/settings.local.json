@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xargs grep:*)",
+      "Bash(grep -o \".max-w-360[^}]*\" /c/Users/donal/workspace/catch-portfolio/.next/dev/static/chunks/*.css)"
+    ]
+  }
+}
